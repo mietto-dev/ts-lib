@@ -1,0 +1,17 @@
+{
+  "name": "ts-lib",
+  "version": "1.0.0",
+  "description": "A starter template for Typescript NPM libraries",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Felipe Mietto <mietto.ti@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.3.0",
+    "typescript": "^5.5.4"
+  }
+}
